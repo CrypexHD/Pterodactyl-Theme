@@ -37,14 +37,7 @@
     </head>
     <body id="particles-js" class="hold-transition login-page">
         <div class="container">
-            <div id="login-position-elements">
-                <div class="login-logo">
-                   <a href="https://oxcyde.io/">
-                       <center>
-                     <img src="https://www.pinclipart.com/picdir/middle/59-596904_vector-royalty-free-icon-free-space-iconset-clip.png" style="opacity: 0.5; height: 150px; width: 150px;"> </center> </a>
 
-                
-                </div>
                 @yield('content')
                 <p class="small login-copyright text-center">
                     Built from <a href="https://pterodactyl.io/">Pterodactyl Software</a>.<br />
