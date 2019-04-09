@@ -52,6 +52,6 @@
 
 
         </script>
-   <style="http://images2.fanpop.com/images/photos/7900000/Space-Art-Sci-Fi-space-7935099-1900-1200.jpg');">
+   <body style="http://images2.fanpop.com/images/photos/7900000/Space-Art-Sci-Fi-space-7935099-1900-1200.jpg');">
     </body>
 </html>
