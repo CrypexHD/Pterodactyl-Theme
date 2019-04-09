@@ -36,13 +36,6 @@
 <div class="row">
     <div class="col-sm-offset-3 col-xs-offset-1 col-sm-6 col-xs-10 pterodactyl-login-box">
 
-                <div class="login-logo">
-                   <a href="https://oxcyde.io/">
-                       <center>
-                     <img src="https://www.pinclipart.com/picdir/middle/59-596904_vector-royalty-free-icon-free-space-iconset-clip.png" style="opacity: 0.5; height: 150px; width: 150px;"> </center> </a>
-
-                
-                </div>
                     <div class="col-xs-offset-1">
                             <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
                 <p><center>If you are new, please check your mail and click "Setup Your Account".</center></p> <br>
