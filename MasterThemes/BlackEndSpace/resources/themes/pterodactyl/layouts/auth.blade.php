@@ -39,7 +39,7 @@
                 <div class="login-logo">
                     {{ config('app.name', 'Pterodactyl') }}
                 </div>
-                <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p> <br /> 
+                <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
                 <p><center>If you are new, please check your mail for your credentials and click "Setup Your Acoount".</center></p>
                 @yield('content')
                 <p class="small login-copyright text-center">
