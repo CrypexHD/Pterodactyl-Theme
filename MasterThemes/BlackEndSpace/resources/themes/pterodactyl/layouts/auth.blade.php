@@ -55,6 +55,8 @@
             <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
                 
         </div>
-
+<script src="/themes/pterodactyl/vendor/jquery/jquery.min.js" type="text/javascript">
+            $('body').addClass('noScroll');
+            </script>
     </body>
 </html>
