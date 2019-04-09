@@ -64,7 +64,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-4">
-                        <a href="{{ route('auth.login') }}"><button type="button" class="btn pterodactyl-login-button--left"></button>Back to login.</a>
+                        <a href="{{ route('auth.login') }}"><button type="button" class="btn pterodactyl-login-button--left">Back to login.</button></a>
                     </div>
                     <div class="col-xs-offset-1 col-xs-7">
                         {!! csrf_field() !!}
