@@ -19,7 +19,7 @@
         <link rel="shortcut icon" href="/favicons/favicon.ico">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#232323">
-        <div class="login-page" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Screenshot_from_IMAX%C2%AE_3D_movie_Hidden_Universe_showing_the_Helix_Nebula_in_infrared.jpg/1280px-Screenshot_from_IMAX%C2%AE_3D_movie_Hidden_Universe_showing_the_Helix_Nebula_in_infrared.jpg'); background-repeat: no-repeat; background-size: 100%; background-position: center center;">
+        <div class="login-page" style="background-image: url('http://eskipaper.com/images/dark-universe-hd-1.jpg'); background-repeat: no-repeat; background-size: 100%; background-position: center center;">
             <!-- Mask & flexbox options-->
 
         @section('scripts')
