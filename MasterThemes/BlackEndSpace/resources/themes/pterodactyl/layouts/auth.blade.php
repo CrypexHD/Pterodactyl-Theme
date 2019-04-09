@@ -55,3 +55,20 @@
 
     </body>
 </html>
+    
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("https://imgnooz.com/sites/default/files/wallpaper/space/62526/burning-sun-wallpapers-62526-6196085.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
