@@ -19,7 +19,6 @@
         <link rel="shortcut icon" href="/favicons/favicon.ico">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#232323">
-        <div class="login-page" style="background-image: url('http://eskipaper.com/images/dark-universe-hd-1.jpg'); background-repeat: no-repeat; background-size: 100%; background-position: center center;">
             <!-- Mask & flexbox options-->
 
         @section('scripts')
@@ -37,6 +36,8 @@
     </head>
     <body id="particles-js" class="hold-transition login-page">
         <scroll="no" style="overflow: hidden">
+                    <div class="login-page" style="background-image: url('http://eskipaper.com/images/dark-universe-hd-1.jpg'); background-repeat: no-repeat; background-size: 100%; background-position: center center;">
+            </div>    
         <div class="container">
             <div id="login-position-elements">
                 <div class="login-logo">
@@ -52,8 +53,8 @@
         <div class="login-corner-info small">
             <strong><i class="fa fa-fw {{ $appIsGit ? 'fa-git-square' : 'fa-code-fork' }}"></i></strong> {{ $appVersion }} / T-1.0<br />
             <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
+                
         </div>
-
 
     </body>
 </html>
