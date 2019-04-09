@@ -39,7 +39,11 @@
         <div class="container">
             <div id="login-position-elements">
                 <div class="login-logo">
-                    {{ config('app.name', 'Pterodactyl') }}
+                   <a href="https://oxcyde.io/">
+                       <center>
+                     <img src="https://cdn173.picsart.com/225526075026202.png?r1024x1024" style="opacity: 0.5;"> </center> </a>
+
+                
                 </div>
                 @yield('content')
                 <p class="small login-copyright text-center">
