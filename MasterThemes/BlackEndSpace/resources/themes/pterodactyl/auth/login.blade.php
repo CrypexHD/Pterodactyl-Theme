@@ -40,7 +40,7 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/223px-PNG_transparency_demonstration_1.png" alt="Dice Test">
             </center>
                             <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
-                <p><center>If you are new, please check your mail and click "Setup Your Account".</center></p>
+                <p><center>If you are new, please check your mail and click "Setup Your Account".</center></p> <br>
             <div class="form-group has-feedback">
                 <div class="pterodactyl-login-input">
                     <input type="text" name="user" class="form-control input-lg" value="{{ old('user') }}" required placeholder="@lang('strings.user_identifier')" autofocus>
