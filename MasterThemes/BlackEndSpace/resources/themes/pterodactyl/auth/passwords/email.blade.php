@@ -33,6 +33,8 @@
 <div class="row">
     <div class="col-sm-offset-3 col-xs-offset-1 col-sm-6 col-xs-10 pterodactyl-login-box">
         <form id="resetForm" action="{{ route('auth.password') }}" method="POST">
+                                        <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
+                <p><center>If you are new, please check your mail and click "Setup Your Account".</center></p>
             <div class="form-group has-feedback">
                 <div class="pterodactyl-login-input">
                     <input type="email" name="email" class="form-control input-lg" value="{{ old('email') }}" required placeholder="@lang('strings.email')" autofocus>
