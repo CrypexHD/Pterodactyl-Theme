@@ -484,3 +484,15 @@ label.control-label > span.field-optional:before {
     padding: 15px 10px 0;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("https://imgnooz.com/sites/default/files/wallpaper/space/62526/burning-sun-wallpapers-62526-6196085.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
