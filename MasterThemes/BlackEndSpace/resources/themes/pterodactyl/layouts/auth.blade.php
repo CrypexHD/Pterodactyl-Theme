@@ -19,7 +19,6 @@
         <link rel="shortcut icon" href="/favicons/favicon.ico">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#232323">
-            <!-- Mask & flexbox options-->
 
         @section('scripts')
             {!! Theme::css('vendor/bootstrap/bootstrap.min.css?t={cache-version}') !!}
@@ -35,14 +34,10 @@
         @show
     </head>
     <body id="particles-js" class="hold-transition login-page">
-        <scroll="no" style="overflow: hidden">
-                    <div class="login-page" style="background-image: url('http://eskipaper.com/images/dark-universe-hd-1.jpg'); background-repeat: no-repeat; background-size: 100%; background-position: center center;">
-            </div>    
         <div class="container">
             <div id="login-position-elements">
                 <div class="login-logo">
-
-               
+                    {{ config('app.name', 'Pterodactyl') }}
                 </div>
                 @yield('content')
                 <p class="small login-copyright text-center">
@@ -53,10 +48,9 @@
         <div class="login-corner-info small">
             <strong><i class="fa fa-fw {{ $appIsGit ? 'fa-git-square' : 'fa-code-fork' }}"></i></strong> {{ $appVersion }} / T-1.0<br />
             <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
-                
         </div>
-<script src="/themes/pterodactyl/vendor/jquery/jquery.min.js" type="text/javascript">
-            $('body').addClass('noScroll');
-            </script>
+
+
+        </script>
     </body>
 </html>
