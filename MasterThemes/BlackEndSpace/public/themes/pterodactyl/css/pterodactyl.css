@@ -24,6 +24,8 @@ THEME EDITED BY FONIX/WILL
  */
  @import 'checkbox.css';
 
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 .login-page {
     background: #232323;
 }
@@ -482,17 +484,4 @@ label.control-label > span.field-optional:before {
 
 .number-info-box-content {
     padding: 15px 10px 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("https://imgnooz.com/sites/default/files/wallpaper/space/62526/burning-sun-wallpapers-62526-6196085.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
