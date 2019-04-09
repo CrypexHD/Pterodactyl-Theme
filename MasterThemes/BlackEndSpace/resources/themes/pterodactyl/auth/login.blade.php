@@ -36,9 +36,6 @@
 <div class="row">
     <div class="col-sm-offset-3 col-xs-offset-1 col-sm-6 col-xs-10 pterodactyl-login-box">
         <form id="loginForm" action="{{ route('auth.login') }}" method="POST">
-            <center>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/223px-PNG_transparency_demonstration_1.png" alt="Dice Test">
-            </center>
                             <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
                 <p><center>If you are new, please check your mail and click "Setup Your Account".</center></p> <br>
             <div class="form-group has-feedback">
