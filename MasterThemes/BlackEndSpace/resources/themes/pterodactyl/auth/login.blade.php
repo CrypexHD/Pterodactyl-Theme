@@ -50,6 +50,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4">
+                    <br />
                     <a href="{{ route('auth.password') }}"><p>Struggling to login?</p></a>
                 </div>
                 <div class="col-xs-offset-4 col-xs-4">
