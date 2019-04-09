@@ -56,7 +56,7 @@
                 <div class="pull-right hidden-xs small text-gray">
                     <strong>v</strong> {{ config('app.version') }}
                 </div>
-                Built with <a href="https://pterodactyl.io/">Pterodactyl Software</a>. 
+                Built from <a href="https://pterodactyl.io/">Pterodactyl Software</a>. 
             </footer>
         </div>
         @section('footer-scripts')

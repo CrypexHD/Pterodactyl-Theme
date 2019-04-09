@@ -40,16 +40,17 @@
                     {{ config('app.name', 'Pterodactyl') }}
                 </div>
                 <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
-                <p><center>If you are new, please check your mail for your credentials and click "Setup Your Acoount".</center></p>
+                <p><center>If you are new, please check your mail for your login credentials and click "Setup Your Account".</center></p>
                 @yield('content')
                 <p class="small login-copyright text-center">
-                    Built with <a href="https://pterodactyl.io/">Pterodactyl Software</a>.<br />
+                    Built from <a href="https://pterodactyl.io/">Pterodactyl Software</a>.<br />
                 </p>
             </div>
         </div>
         <div class="login-corner-info small">
             <strong><i class="fa fa-fw {{ $appIsGit ? 'fa-git-square' : 'fa-code-fork' }}"></i></strong> {{ $appVersion }} / T-1.0<br />
-            <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
+            <strong><i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
         </div>
 
 
