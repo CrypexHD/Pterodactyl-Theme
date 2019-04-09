@@ -37,7 +37,11 @@
     </head>
     <body id="particles-js" class="hold-transition login-page">
         <div class="container">
+            <div id="login-position-elements">
+                <div class="login-logo">
 
+                
+                </div>
                 @yield('content')
                 <p class="small login-copyright text-center">
                     Built from <a href="https://pterodactyl.io/">Pterodactyl Software</a>.<br />
