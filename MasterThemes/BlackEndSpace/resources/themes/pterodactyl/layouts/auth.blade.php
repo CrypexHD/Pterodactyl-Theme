@@ -36,11 +36,12 @@
         @show
     </head>
     <body id="particles-js" class="hold-transition login-page">
+        <scroll="no" style="overflow: hidden">
         <div class="container">
             <div id="login-position-elements">
                 <div class="login-logo">
 
-                
+               
                 </div>
                 @yield('content')
                 <p class="small login-copyright text-center">
