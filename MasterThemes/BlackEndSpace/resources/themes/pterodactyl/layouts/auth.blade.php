@@ -41,7 +41,7 @@
                 <div class="login-logo">
                    <a href="https://oxcyde.io/">
                        <center>
-                     <img src="https://cdn173.picsart.com/225526075026202.png?r1024x1024" style="opacity: 0.5;"> </center> </a>
+                     <img src="https://cdn173.picsart.com/225526075026202.png?r1024x1024" style="opacity: 0.5; height: 150px; width: 150px;"> </center> </a>
 
                 
                 </div>
