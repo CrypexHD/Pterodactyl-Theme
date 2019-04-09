@@ -39,8 +39,6 @@
                 <div class="login-logo">
                     {{ config('app.name', 'Pterodactyl') }}
                 </div>
-                <p><center>The credentials for this panel are different to your oxcyde.io credentials.</center></p>
-                <p><center>If you are new, please check your mail for your login credentials and click "Setup Your Account".</center></p>
                 @yield('content')
                 <p class="small login-copyright text-center">
                     Built from <a href="https://pterodactyl.io/">Pterodactyl Software</a>.<br />
