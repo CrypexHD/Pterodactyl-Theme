@@ -50,15 +50,7 @@
             <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
         </div>
 
-        {!! Theme::js('vendor/jquery/jquery.min.js?t={cache-version}') !!}
-        {!! Theme::js('vendor/bootstrap/bootstrap.min.js?t={cache-version}') !!}
-        {!! Theme::js('js/autocomplete.js?t={cache-version}') !!}
-        {!! Theme::js('vendor/particlesjs/particles.min.js?t={cache-version}') !!}
-        <script type="text/javascript">
-            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-            $(function () {
-                particlesJS.load('particles-js', '{!! Theme::url('vendor/particlesjs/particles.json?t={cache-version}') !!}', function() {});
-            })
+
         </script>
     </body>
 </html>
