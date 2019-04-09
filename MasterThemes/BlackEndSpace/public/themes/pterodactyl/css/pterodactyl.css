@@ -24,8 +24,6 @@ THEME EDITED BY FONIX/WILL
  */
  @import 'checkbox.css';
 
-html, body {margin: 0; height: 100%; overflow: hidden}
-
 .login-page {
     background: #232323;
 }
@@ -484,4 +482,12 @@ label.control-label > span.field-optional:before {
 
 .number-info-box-content {
     padding: 15px 10px 0;
+}
+
+body {
+    min-height:2000px;
+}
+.noScroll {
+    overflow: hidden;
+    position: fixed;
 }
