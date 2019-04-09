@@ -19,7 +19,7 @@
         <link rel="shortcut icon" href="/favicons/favicon.ico">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#232323">
-        <div class="background" style="background-image: url('https://imgnooz.com/sites/default/files/wallpaper/space/62526/burning-sun-wallpapers-62526-6196085.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; background-height: 100;">
+        <div class="login-page" style="background-image: url('https://imgnooz.com/sites/default/files/wallpaper/space/62526/burning-sun-wallpapers-62526-6196085.jpg'); background-repeat: no-repeat; background-size: 100%; background-position: center center;">
             <!-- Mask & flexbox options-->
 
         @section('scripts')
