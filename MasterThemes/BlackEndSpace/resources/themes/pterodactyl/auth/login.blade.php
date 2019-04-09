@@ -55,6 +55,7 @@
                 </div>
                 <div class="col-xs-offset-4 col-xs-4">
                     {!! csrf_field() !!}
+                    <br />
                     <button type="submit" class="btn btn-block g-recaptcha pterodactyl-login-button--main" @if(config('recaptcha.enabled')) data-sitekey="{{ config('recaptcha.website_key') }}" data-callback='onSubmit' @endif>@lang('auth.sign_in')</button>
                 </div>
             </div>
